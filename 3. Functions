@@ -1,4 +1,4 @@
-# 1. len(), min(), max() - Length, Minimum, Maximum in tuple 
+# 1. len(), min(), max() - Length, Minimum, Maximum in Tuple 
 prime_nrs = (11,3,29,19,23,7,13,2,17,5)
 print("No. of Prime Numbers between 1 to 30:" ,prime_nrs)
 print("Minimum Prime Number between 1 to 30:" ,min(prime_nrs))
