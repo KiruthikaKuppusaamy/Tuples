@@ -12,11 +12,37 @@ Maximum Prime Number between 1 to 30: 29
 __________________________________________________________________________
 
 
+# 2. count() - counts number of times an item appeared
+past_weather = (32,28,26,27,27,33,37)
+erode_temp = past_weather.count(27)
+print("No.of times 27 repeated in Erode : ",erode_temp)
+
+____________________________________________________________________________
+output:
+No.of times 27 repeated in Erode :  2
+____________________________________________________________________________
 
 
+# 3. index() - returns the index of the item in the List
+python_score = (89,90,99,82,89,91,83,89,76)
+print("Items in the list :",python_score)
+first = python_score.index(89)
+with_start = python_score.index(89,2)
+with_end = python_score.index(89,5,8)
+print("Index of '89' in the list :",first)
+print("Searched '89' after 2nd Index :",with_start)
+print("Searched '89' between 5th and 8th Index :",with_end)
+
+__________________________________________________________________________
+output:
+Items in the list : (89, 90, 99, 82, 89, 91, 83, 89, 76)
+Index of '89' in the list : 0
+Searched '89' after 2nd Index : 4
+Searched '89' between 5th and 8th Index : 7
+__________________________________________________________________________
 
 
-# Mutable items in Immutable Tuple can be reassigned
+# 4. Mutable items in Immutable Tuple can be reassigned
 courses = ('AIDS','CSE',(1,'Abinaya','AIML'),[3,'Akshara','IT'])
 print("Mutable Items in Tuples : ", courses)
 
