@@ -1,17 +1,18 @@
-# Concatenation Operator
+# 1. Concatenation Operator
 aiml = ('HTML','CSS','JAVASCRIPT','PHP','MYSQL')
 clge = ('AIML','KSRCT')
 print(aiml+clge)
-
 ______________________________________________________________________
 output:
 ('HTML', 'CSS', 'JAVASCRIPT', 'PHP', 'MYSQL', 'AIML', 'KSRCT')
 ______________________________________________________________________
 
-# Repetition Operator 
+
+
+
+# 2. Repetition Operator 
 print(clge*2)
 print(aiml[3]*2)
-
 ______________________________________________________________________
 output:
 ('AIML', 'KSRCT', 'AIML', 'KSRCT')
@@ -19,30 +20,33 @@ PHPPHP
 ______________________________________________________________________
 
 
-# Slicing | Indexing Operator
+
+
+# 3. Slicing | Indexing Operator
 print(clge[0])   # Positive Indexing
 print(clge[1])  
-
 ______________________________________________________________________
 output:
 AIML
 KSRCT
 ______________________________________________________________________
 
+
 print(aiml[-1])  # Negative Indexing
 print(aiml[-3])
-
 ______________________________________________________________________
 output:
 MYSQL
 JAVASCRIPT
 ______________________________________________________________________
 
-# Range Slicing Operator 
+
+
+
+# 4. Range Slicing Operator 
 print(aiml[:])     
 print(aiml[0:])
 print(aiml[:5])
-
 ______________________________________________________________________
 output:
 ('HTML', 'CSS', 'JAVASCRIPT', 'PHP', 'MYSQL')
@@ -50,24 +54,24 @@ output:
 ('HTML', 'CSS', 'JAVASCRIPT', 'PHP', 'MYSQL')
 ______________________________________________________________________
 
-print(aiml[2:4])
 
+print(aiml[2:4])
 ______________________________________________________________________
 output:
 ('JAVASCRIPT', 'PHP')
 ______________________________________________________________________
 
 print(aiml[0:5:2])
-
 ______________________________________________________________________
 output:
 ('HTML', 'JAVASCRIPT', 'MYSQL')
 ______________________________________________________________________
 
-# Iteration Operator
+
+
+# 5. Iteration Operator
 for i in range(len(aiml)):
     print (aiml[i])
-
 ______________________________________________________________________
 output:
 HTML
@@ -77,23 +81,26 @@ PHP
 MYSQL
 ______________________________________________________________________
 
-# Membership Operator
-print('CSS' in aiml)
 
+
+
+# 6. Membership Operator
+print('CSS' in aiml)
 ______________________________________________________________________
 output:
 True
 ______________________________________________________________________
 
-print('PYTHON' in aiml)
 
+print('PYTHON' in aiml)
 ______________________________________________________________________
 output:
 False
 ______________________________________________________________________
 
-print('HTML' not in aiml)
 
+
+print('HTML' not in aiml)
 ______________________________________________________________________
 output:
 False
