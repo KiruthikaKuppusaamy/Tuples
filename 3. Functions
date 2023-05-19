@@ -1,0 +1,31 @@
+# 1. len(), min(), max() - Length, Minimum, Maximum in tuple 
+prime_nrs = (11,3,29,19,23,7,13,2,17,5)
+print("No. of Prime Numbers between 1 to 30:" ,prime_nrs)
+print("Minimum Prime Number between 1 to 30:" ,min(prime_nrs))
+print("Maximum Prime Number between 1 to 30:" ,max(prime_nrs))
+
+__________________________________________________________________________
+output:
+No. of Prime Numbers between 1 to 30: (11, 3, 29, 19, 23, 7, 13, 2, 17, 5)
+Minimum Prime Number between 1 to 30: 2
+Maximum Prime Number between 1 to 30: 29
+__________________________________________________________________________
+
+
+
+
+
+
+# Mutable items in Immutable Tuple can be reassigned
+courses = ('AIDS','CSE',(1,'Abinaya','AIML'),[3,'Akshara','IT'])
+print("Mutable Items in Tuples : ", courses)
+
+# 0 indexed List item in the 3rd index of tuple can be reassigned 
+courses[3][0] = 5
+print("Modified Mutable item   : ", courses)
+
+__________________________________________________________________________
+output:
+Mutable Items in Tuples :  ('AIDS', 'CSE', (1, 'Abinaya', 'AIML'), [3, 'Akshara', 'IT'])
+Modified Mutable item   :  ('AIDS', 'CSE', (1, 'Abinaya', 'AIML'), [5, 'Akshara', 'IT'])
+__________________________________________________________________________
