@@ -1,0 +1,58 @@
+# Simple Tuples
+
+colors = ('white','pink','blue','green')
+print("Data type          - ",type(colors))
+print("Items in the tuple -", colors)
+
+_____________________________________________________________________________
+output:
+Data type          -  <class 'tuple'>
+Items in the tuple - ('white', 'pink', 'blue', 'green')
+_____________________________________________________________________________
+
+
+
+fav_color = ('white')
+print("Data type          - ",type(fav_color))
+_____________________________________________________________________________
+output:
+Data type          -  <class 'str'>
+_____________________________________________________________________________
+
+
+
+fav_color = ('white',)
+print("Data type          - ",type(fav_color))
+_____________________________________________________________________________
+output:
+Data type          -  <class 'tuple'>
+_____________________________________________________________________________
+
+
+fav_color = 'white',
+print("Data type          - ",type(fav_color))
+_____________________________________________________________________________
+output:
+Data type          -  <class 'tuple'>
+_____________________________________________________________________________
+
+
+
+# Tuple with same data type
+languages = ('C','C++','JAVA','ANDROID')
+print("Tuple with same data type : ", languages)
+
+# Tuple with mixed data type
+student = (1,'F','Abinaya')
+print("Tuple with mixed data type : ", student)
+
+# nested Tuple
+courses = ('AIDS','CSE',(1,'Abinaya','AIML'),[3,'Akshara','IT'])
+print("Items with nested Tuples : ", courses)
+
+_____________________________________________________________________________
+output:
+Tuple with same data type :  ('C', 'C++', 'JAVA', 'ANDROID')
+Tuple with mixed data type :  (1, 'F', 'Abinaya')
+Items with nested Tuples :  ('AIDS', 'CSE', (1, 'Abinaya', 'AIML'), [3, 'Akshara', 'IT'])
+_____________________________________________________________________________
